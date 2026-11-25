@@ -38,7 +38,7 @@ public class RestaurantController {
     }
 
     @GetMapping
-    public ResponseEntity<List<RestaurantListResponse>> listRestaurants(
+    public ResponseEntity<List<RestaurantListResponse>> searchResturants(
             @RequestParam(required = false) String name,
             @RequestParam(required = false) String city,
             @RequestParam(required = false) String cuisines,
