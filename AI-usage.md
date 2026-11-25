@@ -16,3 +16,6 @@ This document outlines how AI tools were used during the development of this rep
 
 5. **Docker & Docker Compose Setup**
    - Used to set up the `Dockerfile` and Docker Compose configuration in this project.
+
+6. **Developer Setup README**
+   - Used to generate the `README.md` documentation for developer setup.
