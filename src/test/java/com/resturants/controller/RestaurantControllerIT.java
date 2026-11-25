@@ -1,9 +1,9 @@
-package com.resturants.Resturants_api.controller;
+package com.resturants.controller;
 
-import com.resturants.Resturants_api.AbstractIntegrationTest;
-import com.resturants.Resturants_api.model.Location;
-import com.resturants.Resturants_api.model.Rating;
-import com.resturants.Resturants_api.model.Restaurant;
+import com.resturants.AbstractIntegrationTest;
+import com.resturants.model.Location;
+import com.resturants.model.Rating;
+import com.resturants.model.Restaurant;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;

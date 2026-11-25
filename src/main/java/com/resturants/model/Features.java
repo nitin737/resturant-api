@@ -1,4 +1,4 @@
-package com.resturants.Resturants_api.model;
+package com.resturants.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

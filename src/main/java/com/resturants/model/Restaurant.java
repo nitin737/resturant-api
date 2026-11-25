@@ -1,4 +1,4 @@
-package com.resturants.Resturants_api.model;
+package com.resturants.model;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;

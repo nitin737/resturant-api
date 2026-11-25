@@ -1,9 +1,9 @@
-package com.resturants.Resturants_api.controller;
+package com.resturants.controller;
 
-import com.resturants.Resturants_api.dto.RestaurantListResponse;
-import com.resturants.Resturants_api.exception.GlobalExceptionHandler;
-import com.resturants.Resturants_api.model.Restaurant;
-import com.resturants.Resturants_api.service.RestaurantService;
+import com.resturants.dto.RestaurantListResponse;
+import com.resturants.exception.GlobalExceptionHandler;
+import com.resturants.model.Restaurant;
+import com.resturants.service.RestaurantService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

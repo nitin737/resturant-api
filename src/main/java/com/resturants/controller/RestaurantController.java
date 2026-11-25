@@ -1,8 +1,8 @@
-package com.resturants.Resturants_api.controller;
+package com.resturants.controller;
 
-import com.resturants.Resturants_api.dto.RestaurantListResponse;
-import com.resturants.Resturants_api.model.Restaurant;
-import com.resturants.Resturants_api.service.RestaurantService;
+import com.resturants.dto.RestaurantListResponse;
+import com.resturants.model.Restaurant;
+import com.resturants.service.RestaurantService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

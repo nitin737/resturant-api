@@ -1,10 +1,10 @@
-package com.resturants.Resturants_api.service;
+package com.resturants.service;
 
-import com.resturants.Resturants_api.dto.RestaurantListResponse;
-import com.resturants.Resturants_api.exception.DuplicateRestaurantException;
-import com.resturants.Resturants_api.exception.RestaurantNotFoundException;
-import com.resturants.Resturants_api.model.Restaurant;
-import com.resturants.Resturants_api.repository.RestaurantRepository;
+import com.resturants.dto.RestaurantListResponse;
+import com.resturants.exception.DuplicateRestaurantException;
+import com.resturants.exception.RestaurantNotFoundException;
+import com.resturants.model.Restaurant;
+import com.resturants.repository.RestaurantRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

@@ -1,6 +1,6 @@
-package com.resturants.Resturants_api;
+package com.resturants;
 
-import com.resturants.Resturants_api.repository.RestaurantRepository;
+import com.resturants.repository.RestaurantRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

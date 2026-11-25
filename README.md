@@ -174,11 +174,10 @@ All errors return a consistent JSON structure (`ApiError`):
 ```text
 src/main/java/com/resturants/
 ├── ResturantsApiApplication.java          # Spring Boot entry point
-└── Resturants_api/
-    ├── controller/RestaurantController.java
-    ├── dto/RestaurantListResponse.java
-    ├── exception/                         # GlobalExceptionHandler & custom exceptions
-    ├── model/                             # Restaurant, Location, Pricing, Features, Rating
-    ├── repository/RestaurantRepository.java
-    └── service/RestaurantService.java
+├── controller/RestaurantController.java
+├── dto/RestaurantListResponse.java
+├── exception/                         # GlobalExceptionHandler & custom exceptions
+├── model/                             # Restaurant, Location, Pricing, Features, Rating
+├── repository/RestaurantRepository.java
+└── service/RestaurantService.java
 ```

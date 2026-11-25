@@ -1,4 +1,4 @@
-package com.resturants.Resturants_api.exception;
+package com.resturants.exception;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.dao.DataAccessException;

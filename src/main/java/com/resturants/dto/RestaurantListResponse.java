@@ -1,4 +1,4 @@
-package com.resturants.Resturants_api.dto;
+package com.resturants.dto;
 
 public record RestaurantListResponse(
                 long id,

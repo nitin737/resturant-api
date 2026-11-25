@@ -1,9 +1,9 @@
-package com.resturants.Resturants_api.controller;
+package com.resturants.controller;
 
-import com.resturants.Resturants_api.exception.DuplicateRestaurantException;
-import com.resturants.Resturants_api.exception.GlobalExceptionHandler;
-import com.resturants.Resturants_api.exception.RestaurantNotFoundException;
-import com.resturants.Resturants_api.service.RestaurantService;
+import com.resturants.exception.DuplicateRestaurantException;
+import com.resturants.exception.GlobalExceptionHandler;
+import com.resturants.exception.RestaurantNotFoundException;
+import com.resturants.service.RestaurantService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

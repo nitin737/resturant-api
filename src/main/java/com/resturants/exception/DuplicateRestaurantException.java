@@ -1,4 +1,4 @@
-package com.resturants.Resturants_api.exception;
+package com.resturants.exception;
 
 public class DuplicateRestaurantException extends RuntimeException {
 
